@@ -30,7 +30,9 @@ def printArray(arr,size):
         print ("%d"% arr[i],end=" ")
 
 
-# Driver program to test above functions */
-arr = [1, 2, 3, 4, 5, 6, 7]
-leftRotate(arr, 2, 7)
-printArray(arr, 7)
+if __name__ == '__main__':
+    
+    # Driver program to test above functions */
+    arr = [1, 2, 3, 4, 5, 6, 7]
+    leftRotate(arr, 2, 7)
+    printArray(arr, 7)
